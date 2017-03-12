@@ -13,3 +13,4 @@ class ImageItem(scrapy.Item):
     image_urls = scrapy.Field()
     images = scrapy.Field()
     from_url = scrapy.Field()
+    image_paths = scrapy.Field()
