@@ -76,6 +76,9 @@ IMAGES_STORE = '..'
 IMAGES_URLS_FIELD = 'image_urls'
 IMAGES_RESULT_FIELD = 'images'
 
+IMAGES_THUMBS = {
+    'small': (50, 50),
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
